@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Tab Unmuter",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
